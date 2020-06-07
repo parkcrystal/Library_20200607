@@ -9,10 +9,15 @@
     android:gravity="center"
     tools:context=".ViewProfileImageActivity">
 
-    <ImageView
+    <com.github.chrisbanes.photoview.PhotoView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@mipmap/jh_pic" />
+
+    <!--ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/jh_pic" /-->
 
 
 </LinearLayout>
