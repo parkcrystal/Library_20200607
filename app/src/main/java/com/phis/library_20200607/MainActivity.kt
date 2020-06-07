@@ -31,7 +31,8 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
-        Glide.with(mContext).load("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwingbling.co.kr%2Farticle%2Fwingbling-x-celeb%2F13%2F224460%2F&psig=AOvVaw2o1iMH_bQ36H5KwYgpaIa_&ust=1591584413006000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDV2I7Y7ukCFQAAAAAdAAAAABAb").into(profileImg)
+        Glide.with(mContext).load("http://m.wingbling.co.kr/web/upload/NNEditor/20191210/%EC%95%84%EC%8A%A4%ED%8A%B8%EB%A1%9C%20%EA%B3%B5%EC%8B%9D%20%ED%8A%B8%EC%9C%84%ED%84%B0%20-%20%EC%95%84%EC%8A%A4%ED%8A%B8%EB%A1%9C%20%EC%B0%A8%EC%9D%80%EC%9A%B0%20(%EC%85%80%EB%A0%88%EB%82%98%20%EB%AA%A9%EA%B1%B8%EC%9D%B4)_shop1_002508.jpg").into(profileImg)
+
     }
 
 
